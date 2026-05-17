@@ -7,18 +7,18 @@ public class Test {
         System.out.print("Enter student name: ");
         String name = scanner.nextLine();
 
-        System.out.print("Enter marks for subject 1: ");
-        int mark1 = scanner.nextInt();
+        System.out.print("Enter marks for Physics: ");
+        int PHYSICS = scanner.nextInt();
 
-        System.out.print("Enter marks for subject 2: ");
-        int mark2 = scanner.nextInt();
+        System.out.print("Enter marks for Mathematics: ");
+        int MATH = scanner.nextInt();
 
-        System.out.print("Enter marks for subject 3: ");
-        int mark3 = scanner.nextInt();
+        System.out.print("Enter marks for COMPUTERS: ");
+        int COMPUTER = scanner.nextInt();
 
-        int total = mark1 + mark2 + mark3;
+        int total = PHYSICS + MATH + COMPUTER;
         double average = total / 3.0;
-        boolean pass = mark1 >= 35 && mark2 >= 35 && mark3 >= 35;
+        boolean pass = PHYSICS >= 35 && MATH >= 35 && COMPUTER >= 35;
 
         System.out.println("\nStudent: " + name);
         System.out.println("Total marks: " + total);
