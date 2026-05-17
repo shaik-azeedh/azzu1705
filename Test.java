@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Test {
+public class Test01 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -28,3 +28,8 @@ public class Test {
         scanner.close();
     }
 }
+
+NOTE : Program Must be saved in Test01.java
+
+    compile : javac Test01.java
+    Run     : java Test01
